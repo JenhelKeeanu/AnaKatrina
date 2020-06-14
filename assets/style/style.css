@@ -1,0 +1,103 @@
+body{
+    background-color: #ffede8;
+}
+.header{
+    background: url("/AnaKatrina/assets/img/background.png")  no-repeat;
+    background-size:100%;
+    height:47vw;
+    text-align: center;
+}
+.header img{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+}
+.header .img1{
+    position: absolute;
+    top:200px;
+    left:60px;
+}
+.header .img2{
+    margin-top:30px
+}
+.header .img3{
+    position: absolute;
+    top:200px;
+    right:60px;
+}
+.header .name1, .header .name2{
+    font-size: 3vw;
+    font-family: Brush Script MT;
+    color: black;
+    text-align: center; 
+    font-weight: bold;
+}
+.header .name1{
+    margin-top:5vw;
+    font-size:3vw+15px;
+    color:white
+}
+.header .name2{
+    margin-top: -5.5vw;
+}
+.personalInfo{
+    background: url("/AnaKatrina/assets/img/backgroundProfile.png")  no-repeat;
+    background-size:100%;
+    height:666px;
+    padding:1vw;
+    text-align: center;
+}
+.personalInfo p{
+    font-family:niconne;
+}
+.personalInfo .piHeader{
+    font-size: 66px;
+    font-style: italic;
+    margin: 0;
+}
+.personalInfo .pi2ndHeader{
+    font-size: 45px;
+    font-style: italic;
+}
+.personalInfo .left {
+    width:30%;
+    position: absolute;
+    left: 5vw;
+    text-align: left;
+}
+.personalInfo .right {
+    width:30%;
+    position: absolute;
+    right: 5vw;
+    text-align: right;
+}
+.personalInfo .right p.desc{
+    text-align: justify;
+}
+.personalInfo img{
+    height: 20vw;
+    border-radius: 50%;
+    margin-top:6vw;
+}
+.favorites{
+    background-color: #e2beb5;
+    height:63vw;
+    padding:5vw;
+}
+@media only screen and (max-width: 1340px) {
+    .personalInfo{
+        height:820px;
+    }
+}
+@media only screen and (min-width: 1620px) {
+    .personalInfo .pi2ndHeader{
+        margin-bottom:60px;
+    }
+    .personalInfo img{
+        margin-top:8vw;
+        height: 18vw;
+    }
+    .personalInfo{
+        height:700px;
+    }
+}
