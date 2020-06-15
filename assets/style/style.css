@@ -1,5 +1,5 @@
 body{
-    background-color: #ffede8;
+    background-color: #e2beb5;
 }
 .header{
     background: url("/AnaKatrina/assets/img/background.png")  no-repeat;
@@ -42,6 +42,7 @@ body{
 }
 .personalInfo{
     background: url("/AnaKatrina/assets/img/backgroundProfile.png")  no-repeat;
+    background-color: #ffede8;
     background-size:100%;
     height:666px;
     padding:1vw;
@@ -75,21 +76,210 @@ body{
     text-align: justify;
 }
 .personalInfo img{
-    height: 20vw;
-    border-radius: 50%;
+    height: 23vw;
+    border-radius: 25%;
     margin-top:6vw;
 }
+.places{
+    background: url("/AnaKatrina/assets/img/background3.png")  no-repeat;
+    background-size:100%;
+    height:47vw;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.places p,.places b{
+    font-family:niconne;
+}
+.places .piHeader{
+    font-size: 66px;
+    font-style: italic;
+    margin: 0;
+}
+.places .col-sm-4{
+    padding:50px;
+    float:left
+}
+.places .carousel-item img{
+    border-radius: 50%;
+    height: 50%;
+}
+.places .travDesc p{
+    margin:0;
+}
+.places2{
+    background: url("/AnaKatrina/assets/img/background3-5.jpg")  no-repeat;
+    background-size:100%;
+    height:30vw;
+    text-align: center;
+}
+.places2 p,.places2 b{
+    font-family:niconne;
+}
+.places2 .piHeader{
+    font-size: 66px;
+    font-style: italic;
+    margin: 0;
+}
+.places2 .col-sm-4{
+    padding:50px;
+    float:left;
+    padding-top:unset;
+}
+.places2 .carousel-item img{
+    border-radius: 50%;
+    height: 65%;
+}
+.places2 .travDesc p{
+    margin:0;
+}
 .favorites{
-    background-color: #e2beb5;
-    height:63vw;
-    padding:5vw;
+    background: url("/AnaKatrina/assets/img/backgroundFav.png")  no-repeat;
+    background-size:100%;
+    height:45vw;
+    text-align: center;
+    margin-top:3vw;
+}
+.favorites p,.favorites b{
+    font-family:niconne;
+    font-size: 5vw;
+}
+.favorites .piHeader{
+    font-size: 66px;
+    font-style: italic;
+    margin: 0;
+}
+.favorites .btn_div{
+    text-align:left;
+    margin-left:80px;
+}
+.favorites .btn_fav{
+    border: 0;
+    background: transparent;
+    font-size: 45px;
+    width: 70%;
+    text-align: left;
+
+}
+.fa.fa-arrow-right{
+    display:none;
+}
+.fa.fa-arrow-right.active{
+    display:inline-block;
+}
+.favorites .imgs_cont{
+    display:none;
+}
+.favorites .imgs_cont.active{
+    display:block;
+}
+.hobby{
+    background: url("/AnaKatrina/assets/img/backgroundHobby.jpg")  no-repeat;
+    background-size:100%;
+    height:45vw;
+    text-align: center;
+}
+.hobby p,.hobby b{
+    font-family:niconne;
+    font-size: 5vw;
+}
+.hobby .piHeader{
+    font-size: 66px;
+    font-style: italic;
+    margin: 0;
+}
+.hobby .btn_div{
+    text-align:right;
+    /* margin-left:80px; */
+}
+.hobby .btn_fav{
+    border: 0;
+    background: transparent;
+    font-size: 45px;
+    width: 100%;
+    text-align: right;
+
+}
+.fa.fa-arrow-left{
+    display:none;
+}
+.fa.fa-arrow-left.active{
+    display:inline-block;
+}
+.hobby .imgs_cont{
+    display:none;
+}
+.hobby .imgs_cont.active{
+    display:block;
+}
+.school{
+    background: url("/AnaKatrina/assets/img/backgroundFav.png")  no-repeat;
+    background-size:100%;
+    height:45vw;
+    text-align: center;
+}
+.school p,.school b{
+    font-family:niconne;
+    font-size: 5vw;
+}
+.school .piHeader{
+    font-size: 66px;
+    font-style: italic;
+    margin: 0;
+}
+.school .btn_div{
+    text-align:left;
+    margin-left:80px;
+}
+.school .btn_fav{
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    width: 70%;
+    text-align: left;
+
+}
+.fa.fa-arrow-right{
+    display:none;
+}
+.fa.fa-arrow-right.active{
+    display:inline-block;
+}
+.school .imgs_cont{
+    display:none;
+}
+.school .imgs_cont.active{
+    display:block;
 }
 @media only screen and (max-width: 1340px) {
     .personalInfo{
         height:820px;
     }
+    .places2 .carousel-item img{
+        border-radius: 50%;
+        height: 70%;
+    }
+    .favorites .col-sm-6 .carousel{
+        margin: auto;
+        margin-top:75px;
+    }
+    .hobby .col-sm-6 .carousel{
+        margin: auto;
+        margin-top:75px;
+    }
+    .school .col-sm-6 .carousel{
+        margin: auto;
+        margin-top:75px;
+    }
+    .school .carousel.slide{
+        width:350px !important;
+    
+    }
+    .school .imgs_cont img{
+        border-radius: 50%;
+        height: 350px;
+    }
 }
-@media only screen and (min-width: 1620px) {
+@media only screen and (min-width: 1440px) {
     .personalInfo .pi2ndHeader{
         margin-bottom:60px;
     }
@@ -99,5 +289,88 @@ body{
     }
     .personalInfo{
         height:700px;
+    }
+    .places .piHeader{
+        font-size: 66px;
+        font-style: italic;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+    .places .piHeader{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .places .carousel-item {
+        padding:45px;
+    }
+    .places .carousel-item img{
+        border-radius: 50%;
+        height: 40%;
+    }
+    .places2 .piHeader{
+        font-size: 66px;
+        font-style: italic;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+    .places2 .piHeader{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .places2 .carousel-item {
+        padding:45px;
+    }
+    .favorites .piHeader{
+        margin-top:50px
+    }
+    .favorites .btn_div{
+        margin-top:80px;
+        margin-left:130px;
+    }
+    .favorites .btn_fav{
+        padding:10px
+    
+    }
+    .favorites .col-sm-6 .carousel{
+        margin: auto;
+        margin-top:150px;
+    }
+    .hobby .piHeader{
+        margin-top:50px
+    }
+    .hobby .btn_div{
+        margin-top:80px;
+        margin-left:130px;
+    }
+    .hobby .btn_fav{
+        padding:10px
+    
+    }
+    .hobby .col-sm-6 .carousel{
+        margin: auto;
+        margin-top:150px;
+    }
+    .school .piHeader{
+        margin-top:50px
+    }
+    .school .btn_div{
+        margin-top:80px;
+        margin-left:130px;
+    }
+    .school .btn_fav{
+        padding:10px
+    
+    }
+    .school .col-sm-6 .carousel{
+        margin: auto;
+        margin-top:150px;
+    }
+    .school .carousel.slide{
+        width:550px !important;
+    
+    }
+    .school .imgs_cont img{
+        border-radius: 50%;
+        height: 550px;
     }
 }
